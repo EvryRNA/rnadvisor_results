@@ -92,7 +92,7 @@ The visualisations are available at `docker_data/plots/time`
 
 Scoring functions computation time | Metrics computation time
 :-------------------------:|:-------------------------:
-![](docker_data/plots/time/time_scoring_functions.png)  | ![](docker_data/plots/time/time_metrics.png)
+![](docker_data/plots/time/time_energies.png)  | ![](docker_data/plots/time/time_metrics.png)
 
 ### Carbon benchmark
 
