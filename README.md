@@ -72,6 +72,7 @@ To get the different visualisations, you can run the command for:
 - Carbon benchmark: `make viz_carbon`
 
 The results are stored in `docker_data/plots`. 
+The different scores are stored in `docker_data/scores`. 
 
 ### Metrics vs metrics 
 
@@ -83,19 +84,21 @@ Mean ES between metrics             |  Mean PCC between metrics
 
 ### Metrics vs scoring functions 
 
-The visualisations are available at ‘’
-
-### Scoring functions ranking
-
-The visualisations are available at ‘’
+The scores are available at `docker_data/scores`. 
 
 ### Time benchmark
 
-The visualisations are available at ‘’
+The visualisations are available at `docker_data/plots/time`
+
+Scoring functions computation time | Metrics computation time
+:-------------------------:|:-------------------------:
+![](docker_data/plots/time/time_scoring_functions.png)  | ![](docker_data/plots/time/time_metrics.png)
 
 ### Carbon benchmark
 
-The visualisation is available at ‘’
+The visualisation is available at `docker_data/plots/carbon`.
+
+![](docker_data/plots/carbon/carbon.png)
 
 
 ## References 
