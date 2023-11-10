@@ -100,6 +100,12 @@ The visualisation is available at `docker_data/plots/carbon`.
 
 ![](docker_data/plots/carbon/carbon.png)
 
+### Metrics vs scoring function - example 
+
+Here is visualisation of the logarithm of the normalized four scoring functions (RASP, εSCORE, DFIRE-RNA and rsRNASP) of RNA 1ec6D and its 500 decoys from Test
+Set I depending on eight metrics. 
+
+![](docker_data/plots/1ec6D_metrics_energies.png)
 
 ## References 
 
