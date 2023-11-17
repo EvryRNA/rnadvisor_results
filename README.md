@@ -110,8 +110,8 @@ Set I depending on eight metrics.
 ## References 
 
 <a id="1">[1]</a>
-RNAdvisor: a comprehensive benchmarking tool for the measure and prediction of RNA structural model quality
-Clement Bernard, Guillaume Postic, Sahar Ghannay, Fariza Tahi
+RNAdvisor: a comprehensive benchmarking tool for the measure and prediction of RNA structural model quality.
+Clement Bernard, Guillaume Postic, Sahar Ghannay, Fariza Tahi.
 bioRxiv 2023.11.14.567018; doi: https://doi.org/10.1101/2023.11.14.567018
 
 <a id="2">[2]</a>
@@ -129,7 +129,7 @@ evaluation. Biophys J. 121: 142-156.
 ## Citation
 
 ```
-RNAdvisor: a comprehensive benchmarking tool for the measure and prediction of RNA structural model quality
-Clement Bernard, Guillaume Postic, Sahar Ghannay, Fariza Tahi
+RNAdvisor: a comprehensive benchmarking tool for the measure and prediction of RNA structural model quality.
+Clement Bernard, Guillaume Postic, Sahar Ghannay, Fariza Tahi.
 bioRxiv 2023.11.14.567018; doi: https://doi.org/10.1101/2023.11.14.567018
 ```
