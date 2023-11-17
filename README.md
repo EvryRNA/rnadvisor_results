@@ -1,16 +1,16 @@
 # RNA metrics and scoring functions benchmark
 
 RNA metrics and scoring functions benchmark.
-This repository contains code for the experimentations of RNAdvisor [REF].
+This repository contains code for the experimentations of [[RNAdvisor]](#1).
 
 ## Installations 
 ### 1. Datasets
 
 Three different datasets were used. Each dataset is composed of the native structures, and the predictions (which are the decoys). 
 
-- [Test Set I](http://melolab.org/supmat/RNApot/Sup._Data.html) : it is composed of 85 RNAs with 500 decoys from [[MODELLER]](#1). 
+- [Test Set I](http://melolab.org/supmat/RNApot/Sup._Data.html): it is composed of 85 RNAs with 500 decoys from [[MODELLER]](#2). 
     You can download it using: ```make install_test_set_1```
-- [Test Set II](https://github.com/Tan-group/rsRNASP) : it is composed of the PM decoy sets from rsRNASP (#2). 
+- [Test Set II](https://github.com/Tan-group/rsRNASP): it is composed of the PM decoy sets from [[rsRNASP]](#3). 
     You can download it using: ```make install_test_set_2```
 - [Test Set III](https://github.com/RNA-Puzzles/standardized_dataset/tree/master): it is composed of predictions from [RNAPuzzles](http://www.rnapuzzles.org/). 
     You can download it using : ```make install_test_set_3```
@@ -110,20 +110,26 @@ Set I depending on eight metrics.
 ## References 
 
 <a id="1">[1]</a>
+RNAdvisor: a comprehensive benchmarking tool for the measure and prediction of RNA structural model quality
+Clement Bernard, Guillaume Postic, Sahar Ghannay, Fariza Tahi
+bioRxiv 2023.11.14.567018; doi: https://doi.org/10.1101/2023.11.14.567018
+
+<a id="2">[2]</a>
 Sali A, Blundell TL. Comparative protein modelling by satisfaction of spatial restraints. 
 J Mol Biol. 1993 Dec 5;234(3):779-815. 
 doi: 10.1006/jmbi.1993.1626. 
 PMID: 8254673.
 
-<a id="2">[2]</a>
+<a id="3">[3]</a>
 Tan YL, Wang X, Shi YZ, Zhang W, Tan ZJ.
 2022.
 rsRNASP: A residue-separation-based statistical potential for RNA 3D structure
 evaluation. Biophys J. 121: 142-156.
 
-## Authors 
-- Clément BERNARD
-
 ## Citation
 
-- TO COMPLETE
+```
+RNAdvisor: a comprehensive benchmarking tool for the measure and prediction of RNA structural model quality
+Clement Bernard, Guillaume Postic, Sahar Ghannay, Fariza Tahi
+bioRxiv 2023.11.14.567018; doi: https://doi.org/10.1101/2023.11.14.567018
+```
